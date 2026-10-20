@@ -279,19 +279,3 @@ La colección incluye login y pruebas de los recursos principales. El login de b
 - `404 Not Found`: recurso inexistente.
 - `409 Conflict`: regla de negocio o integridad impide la operación.
 
-## 15. Preparación para entrega
-
-Antes de comprimir:
-
-1. Compruebe que Spring Boot inicia.
-2. Pruebe frontend y login.
-3. Complete las evidencias reales.
-4. Vuelva a dejar en `application.properties`:
-
-```properties
-spring.datasource.password=
-```
-
-5. Elimine `backend/target/` si existe.
-6. No incluya contraseñas personales.
-
